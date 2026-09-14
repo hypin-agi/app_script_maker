@@ -30,10 +30,14 @@ Ez a tudásanyag arról szól, hogyan kerüld el ezt.
 | "Hogyan dolgozzak rajta profin?" | [07 – Fejlesztői workflow](docs/07-fejlesztoi-workflow.md) |
 | "Mit építsek ügynökségként?" | [08 – Hypin' playbook](docs/08-hypin-playbook.md) |
 | "Hogyan adjam át a feladatot?" | [09 – Brief sablon](docs/09-brief-sablon.md) |
+| "Beérkező adat alapján döntsön" | [10 – Adatvezérelt döntés](docs/10-adatvezerelt-dontes.md) |
 
-A `templates/starter/` mappában egy éles használatra kész projektváz van
-(config, logolás, riasztás, retry, batch I/O, kill switch) — ezzel érdemes
-minden új scriptet kezdeni.
+## Sablonok
+
+| Mappa | Mi ez |
+|---|---|
+| [`templates/starter/`](templates/starter/README.md) | Éles használatra kész projektváz: config, logolás, riasztás, retry, batch I/O, idempotencia, kill switch. **Minden új script ebből induljon.** |
+| [`templates/lead-scoring/`](templates/lead-scoring/README.md) | Működő megoldás: Meta űrlapos leadek pontozása a válaszaik alapján, 3 szegmensre bontás, szegmensenként külön email. |
 
 ## A három mondat, amit érdemes fejből tudni
 
