@@ -1,0 +1,20 @@
+# clasp – SOHA ne kerüljön be
+.clasprc.json          # OAuth token
+.clasp.json            # script ID + lokális útvonal (fejlesztőnként más)
+.clasp.*.json
+!.clasp.example.json
+
+# Node / build
+node_modules/
+build/
+dist/
+*.log
+
+# Lokális, környezetfüggő
+*.local.*
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
